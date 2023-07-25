@@ -12,5 +12,6 @@ fun main() {
     newTopic(addItem("7-Up", 20, 10))
     newTopic(addItem("Coca Cola", 100))
     newTopic(addItem("Pepsi"))
+    newTopic(addItem(name = "Burger King", discount = 90))
 
 }

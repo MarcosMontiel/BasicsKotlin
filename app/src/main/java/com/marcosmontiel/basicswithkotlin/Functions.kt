@@ -19,4 +19,4 @@ fun Int.obtainAbs(isActive: Boolean = true): Int = if (isActive) abs(this) else 
 // Override function
 
 fun addItem(name: String, quantity: Int = 0, discount: Int = 0): String =
-    "Product: $name, Quantity: $quantity, Discount: $discount"
+    "Product: $name, Quantity: $quantity, Discount: $discount%"
