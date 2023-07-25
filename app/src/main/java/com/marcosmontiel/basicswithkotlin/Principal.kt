@@ -1,5 +1,9 @@
 package com.marcosmontiel.basicswithkotlin
 
 fun main() {
-    print("Hello world")
+    newTopic("Hello new world")
+}
+
+fun newTopic(topic: String) {
+    print(topic)
 }
