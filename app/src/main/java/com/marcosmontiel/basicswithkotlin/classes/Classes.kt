@@ -34,4 +34,17 @@ fun main() {
     newTopic(person)
     newTopic(friend)
 
+    newTopic("\n===== Scope functions / funciones de alcance =====\n")
+
+    with(smartphone) {
+        println(isPrivate)
+        call()
+    }
+
+    friend.apply {
+        lastName = "Walker"
+    }
+
+    newTopic(friend)
+
 }

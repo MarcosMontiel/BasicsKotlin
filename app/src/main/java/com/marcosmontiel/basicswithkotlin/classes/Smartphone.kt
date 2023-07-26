@@ -1,6 +1,6 @@
 package com.marcosmontiel.basicswithkotlin.classes
 
-class Smartphone(number: String, private val isPrivate: Boolean = true) : Phone(number) {
+class Smartphone(number: String, val isPrivate: Boolean = true) : Phone(number) {
 
     override fun showNumber() {
 

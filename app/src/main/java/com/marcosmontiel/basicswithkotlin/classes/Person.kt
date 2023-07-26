@@ -1,9 +1,9 @@
 package com.marcosmontiel.basicswithkotlin.classes
 
 data class Person(
-    val age: Int = 0,
-    val group: Group = Group.FAMILY,
-    val groupCode: Int = 0,
-    val lastName: String = "",
-    val name: String = "",
+    var age: Int = 0,
+    var group: Group = Group.FAMILY,
+    var groupCode: Int = 0,
+    var lastName: String = "",
+    var name: String = "",
 )
